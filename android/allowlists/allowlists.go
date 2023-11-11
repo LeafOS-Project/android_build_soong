@@ -534,6 +534,8 @@ var (
 		"prebuilts/runtime":/* recursive = */ false,
 		"prebuilts/rust":/* recursive = */ true,
 
+		"vendor/linux4/security":/* recursive = */ true,
+
 		// not recursive due to conflicting workspace paths in tools/atest/bazel/rules
 		"tools/asuite/atest":/* recursive = */ false,
 		"tools/asuite/atest/bazel/reporter":/* recursive = */ true,
